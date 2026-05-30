@@ -21,3 +21,10 @@ grid on;
 xlabel('x');
 ylabel('y');
 title('edo45 solution:');
+
+%% display solution
+disp('x=');
+disp(x(end));
+
+disp('y=');
+disp(Y(end, 1));
